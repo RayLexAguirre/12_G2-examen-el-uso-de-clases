@@ -1,0 +1,154 @@
+{
+  "tests": [
+    {
+      "name": "Participant constructor",
+      "setup": "npm install",
+      "run": "npm run test participant.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "Participant.getId()",
+      "setup": "",
+      "run": "npm run test participant.getId.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "Participant.getName()",
+      "setup": "",
+      "run": "npm run test participant.getName.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "Participant.getType()",
+      "setup": "",
+      "run": "npm run test participant.getType.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "Participant.getTypeName()",
+      "setup": "",
+      "run": "npm run test participant.getTypeName.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "Item constructor",
+      "setup": "",
+      "run": "npm run test item.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "Item.getName()",
+      "setup": "",
+      "run": "npm run test item.getName.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "Item.getCost()",
+      "setup": "",
+      "run": "npm run test item.getCost.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "Item.getTotalCost()",
+      "setup": "",
+      "run": "npm run test item.getTotalCost.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Project constructor()",
+      "setup": "",
+      "run": "npm run test project.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Project.getName()",
+      "setup": "",
+      "run": "npm run test project.getName.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Project.addParticipant()",
+      "setup": "",
+      "run": "npm run test project.addParticipant.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Project.addItem()",
+      "setup": "",
+      "run": "npm run test project.addItem.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Project.getNumParticipants()",
+      "setup": "",
+      "run": "npm run test project.getNumParticipants.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Project.getCost()",
+      "setup": "",
+      "run": "npm run test project.getCost.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
